@@ -7,9 +7,9 @@ const c = require('../../config')
  * 连接池
  */
 var pool = mysql.createPool({
-    host:'47.94.159.148',
+    host:'127.0.0.1', //替换自己的服务器地址
     user:'root',
-    password:'123456',
+    password:'password', //替换自己的密码
     database:'nodedb',
     port:3306
 });
